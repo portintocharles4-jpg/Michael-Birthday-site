@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy 21st Birthday!</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Login Screen -->
+  <div id="login-screen">
+    <div class="login-box">
+      <h2>HAPPY BIRTHDAY CUMLAUDE NG AUTOMOTIVE</h2>
+      <p>Enter password to continue</p>
+      <input type="password" id="password-input" placeholder="Password" />
+      <button onclick="checkPassword()">Enter</button>
+      <p id="error-message"></p>
+    </div>
+  </div>
+
+  <!-- Main Content (hidden initially) -->
+  <div id="main-content" class="hidden">
+    <div class="container">
+      <h1>🎉 Happy 21st Birthday! 🎉</h1>
+      
+      <!-- Photo Section -->
+      <div class="photo-section">
+        <div class="photo-frame">
+          <!-- PALITAN ANG src SA IMAGEN NIYA -->
+          <img src="8e6d43c7-9d1b-4f35-940e-f622ce5a82b6.jpg" alt="Birthday Boy" id="birthday-photo"/>
+        </div>
+        <p class="photo-caption">The Birthday Boy 👑</p>
+      </div>
+
+      <!-- Cake Section -->
+      <div class="cake-section">
+        <div class="cake" id="cake">
+          <div class="cake-layer layer-1"></div>
+          <div class="cake-layer layer-2"></div>
+          <div class="cake-layer layer-3"></div>
+          <div class="candle">
+            <div class="flame" id="flame"></div>
+          </div>
+        </div>
+        <p class="cake-text">Click the candle to blow it out! 🕯️</p>
+      </div>
+
+      <!-- Message Section -->
+      <div class="message-section">
+        <h2>Dear Birthday Boy,</h2>
+        <p class="message">
+          Happy 21st Birthday mike HAHAHAHA, Pasabog my pa debut yan sha HAHA isang hayop ka nga jn HAHA
+          <br><br>
+          'di joke lang ano talaga, gpt mona tayo HAHAHA ito na. May this year bring you endless opportunities, success in everything you do, 
+          and memories that will last a lifetime, dream bigger, never stop believing in yourself, yon lang thankyou for our friendship that we had.
+          <br><br>
+          Cheers to 21 years of awesomeness and to many more amazing years ahead! 🥂
+          <br><br>
+          <strong>ate Jecyl pwede na baga yan mag inom, hyp nayan HAHA ✨</strong>
+        </p>
+      </div>
+
+      <button class="celebrate-btn" onclick="celebrate()">🎊 Celebrate! 🎊</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
